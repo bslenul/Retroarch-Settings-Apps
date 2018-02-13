@@ -6,4 +6,4 @@ If you want to make a separate folder for the apps, you can put `0retroarch-sett
 
 ## /!\ For retroarch-clover users /!\
 
-Default settings are slightly different than the ones from KMFDManic core set, so download `Retroarch-Clover_DefaultSettings.zip` and extract the 2 .cfg files in `\hakchi2\games_snes\CLV-P-ALLRA` and/or `CLV-P-RASET` (`\hakchi2\games` on NESC) before syncing.
+Default settings are slightly different than the ones from [KMFDManic core set](https://github.com/KMFDManic/NESC-SNESC-Modifications/releases), so download `Retroarch-Clover_DefaultSettings.zip` and extract the 2 .cfg files in `\hakchi2\games_snes\CLV-P-ALLRA` and/or `CLV-P-RASET` (`\hakchi2\games` on NESC) before syncing.
