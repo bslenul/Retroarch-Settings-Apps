@@ -2,6 +2,14 @@
 
 ![Retroarch-Settings-Apps](https://i.imgur.com/msXRJqZ.png "Retroarch-Settings-Apps")
 
+## Different versions
+
+   - KMFD_users_BEFORE_2-15-18_update: if you're using a version of KMFDManic core set BEFORE his 1-15-18 update.
+   - KMFD_users_AFTER_2-15-18_update: if you're using 1-15-18 version of KMFDManic core set or later.
+   - retroarch-clover_users: if you're using Cluster's retroarch-clover core set.
+
+# What these apps do:
+
 ## DefaultSettingsAll.zip / RetroArch - Default settings (All)
 
    - Will replace current `/etc/libretro/retroarch.cfg` and `retroarch-core-options.cfg` with default ones.
