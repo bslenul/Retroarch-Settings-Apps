@@ -4,8 +4,8 @@
 
 ## Different versions
 
-   - KMFD_users_BEFORE_2-15-18_update: if you're using a version of KMFDManic core set BEFORE his 1-15-18 update.
-   - KMFD_users_AFTER_2-15-18_update: if you're using 1-15-18 version of KMFDManic core set or later.
+   - KMFD_users_BEFORE_2-15-18_update: if you're using a version of KMFDManic core set BEFORE his 2-15-18 update.
+   - KMFD_users_AFTER_2-15-18_update: if you're using 2-15-18 version of KMFDManic core set or later.
    - retroarch-clover_users: if you're using Cluster's retroarch-clover core set.
 
 # What these apps do:
