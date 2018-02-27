@@ -2,23 +2,27 @@
 
 ![Retroarch-Settings-Apps](https://i.imgur.com/msXRJqZ.png "Retroarch-Settings-Apps")
 
-## Different versions
-
-   - KMFD_users_BEFORE_2-15-18_update: if you're using a version of KMFDManic core set BEFORE his 2-15-18 update.
-   - KMFD_users_2-15-18_update: if you're using 2-15-18 version of KMFDManic core set.
-   - retroarch-clover_users: if you're using Cluster's retroarch-clover core set.
-
 # What these apps do:
 
 ## DefaultSettingsAll.zip / RetroArch - Default settings (All)
 
    - Will replace current `/etc/libretro/retroarch.cfg` and `retroarch-core-options.cfg` with default ones.
    - Will delete the content of `/etc/libretro/.config/retroarch/config` folder (game and core overrides + remap files).
+   
+### IMPORTANT
+
+   - Default files are for retroarch-clover 1.0c, if you're using another version of retroarch you need to replace these files.
+   - For example if you're using `_km_retroarch_171_standard_2_23_18` open the .hmod with 7zip, winrar or whatever, you'll see a file with no extension:
+   ![Opening .hmod](https://i.imgur.com/qbwUdcF.png "Opening .hmod")
+   - Open this file by double-clicking it, now go to `\etc\libretro`, you should the 2 .cfg files that we need:
+   ![.cfg files inside the .hmod](https://i.imgur.com/nktevXz.png ".cfg files inside the .hmod")
+   - Go to `\hakchi2\games\CLV-P-ALLRA`, drag the 2 .cfg files from the .hmod and overwrite the ones already there.
 
 ## DefaultSettingsKeepOverrides.zip / RetroArch - Default settings (keep overrides)
 
    - Will only replace current `/etc/libretro/retroarch.cfg` and `retroarch-core-options.cfg` with default ones.
    - Game and core overrides + remap files are untouched.
+   - See the "**IMPORTANT**" section above, but overwrite the files in `\hakchi2\games\CLV-P-RASET` instead.
 
 ## DeleteOverrides.zip / RetroArch - Delete game and core overrides
 
