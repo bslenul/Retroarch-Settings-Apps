@@ -11,7 +11,7 @@
    
 ### IMPORTANT
 
-   - Default files are for retroarch-clover 1.0c, if you're using another version of retroarch you need to replace these files.
+   - Default files are for retroarch-clover 1.1c, if you're using another version of retroarch you need to replace these files.
    - For example if you're using `_km_retroarch_171_standard_2_23_18` open the .hmod with 7zip, winrar or whatever, you'll see a file with no extension:
    ![Opening .hmod](https://i.imgur.com/qbwUdcF.png "Opening .hmod")
    - Open this file by double-clicking it, now go to `\etc\libretro`, you should the 2 .cfg files that we need:
