@@ -34,11 +34,11 @@
    - Will only delete remap files.
    - Retroarch settings, game and core overrides are untouched.
 
-# Backup/restore settings
+# /!\ Backup and restore settings /!\
 
-   - Add only one MakeBackup zip in Hakchi2: MakeBackup_NAND **OR** MakeBackup_USB **OR** MakeBackupAdvanced_USB.
-   - Same for RestoreBackup: RestoreBackup_NAND **OR** RestoreBackup_USB **OR** RestoreBackupAdvanced_USB.
-   - The RestoreBackupAdvanced_USB will copy the entire `/etc/libretro/.config` (useful if you have RetroArch overlays) folder + `/etc/libretro/system` (your BIOS folder).
+   - Add only one MakeBackup zip in Hakchi2: `MakeBackup_NAND` **OR** `MakeBackup_USB` **OR** `MakeBackupAdvanced_USB`.
+   - Same for RestoreBackup: `RestoreBackup_NAND` **OR** `RestoreBackup_USB` **OR** `RestoreBackupAdvanced_USB`.
+   - The RestoreBackupAdvanced_USB will copy the entire `/etc/libretro/.config` folder (useful if you have RetroArch overlays) + `/etc/libretro/system` (your BIOS folder).
 
 ## MakeBackup_NAND.zip / RetroArch - Make settings backup
 
