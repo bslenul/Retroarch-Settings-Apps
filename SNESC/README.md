@@ -34,6 +34,12 @@
    - Will only delete remap files.
    - Retroarch settings, game and core overrides are untouched.
 
+# Backup/restore settings
+
+   - Add only one MakeBackup zip in Hakchi2: MakeBackup_NAND **OR** MakeBackup_USB **OR** MakeBackupAdvanced_USB.
+   - Same for RestoreBackup: RestoreBackup_NAND **OR** RestoreBackup_USB **OR** RestoreBackupAdvanced_USB.
+   - The RestoreBackupAdvanced_USB will copy the entire `/etc/libretro/.config` (useful if you have RetroArch overlays) folder + `/etc/libretro/system` (your BIOS folder).
+
 ## MakeBackup_NAND.zip / RetroArch - Make settings backup
 
    - Will copy `/etc/libretro/retroarch.cfg` and `retroarch-core-options.cfg` in `/etc/ra_backup`.
@@ -44,10 +50,6 @@
    - Will restore `/etc/ra_backup/retroarch.cfg` and `retroarch-core-options.cfg` in `/etc/libretro`.
    - Will restore `/etc/ra_backup/config` folder in `/etc/libretro/.config/retroarch`.
 
-## DeleteBackup_NAND.zip / RetroArch - Delete backup folder
-
-   - Will delete `/etc/ra_backup` folder from the NAND.
-
 ## MakeBackup_USB.zip / RetroArch - Make settings backup
 
    - Will copy `/etc/libretro/retroarch.cfg` and `retroarch-core-options.cfg` in `/media/data/ra_backup` (= `usb:\data\ra_backup`).
@@ -57,3 +59,20 @@
 
    - Will restore `/media/data/ra_backup/retroarch.cfg` and `retroarch-core-options.cfg` in `/etc/libretro`.
    - Will restore `/media/data/ra_backup/config` folder in `/etc/libretro/.config/retroarch`.
+
+## MakeBackupAdvanced_USB.zip / RetroArch - Make settings backup
+
+   - Will copy `/etc/libretro/retroarch.cfg` and `retroarch-core-options.cfg` in `/etc/ra_backup`.
+   - Will copy `/etc/libretro/.config` folder in `/media/data/ra_backup`.
+   - Will copy `/etc/libretro/system` folder in `/media/data/ra_backup`.
+   
+## RestoreBackupAdvanced_USB.zip / RetroArch - Restore backup
+
+   - Will restore `/media/data/ra_backup/retroarch.cfg` and `retroarch-core-options.cfg` in `/etc/libretro`.
+   - Will restore `/media/data/ra_backup/.config` folder in `/etc/libretro`.
+   - Will restore `/media/data/ra_backup/system` folder in `/etc/libretro`.
+
+## DeleteBackup.zip / RetroArch - Delete backup folder
+
+   - Will delete `/etc/ra_backup` folder from the NAND.
+   - Will delete `/media/data/ra_backup` folder from the USB drive.
