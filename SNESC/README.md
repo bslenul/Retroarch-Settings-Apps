@@ -8,6 +8,7 @@
 
    - Will replace current `/etc/libretro/retroarch.cfg` and `retroarch-core-options.cfg` with default ones.
    - Will delete the content of `/etc/libretro/.config/retroarch/config` folder (game and core overrides + remap files).
+   - Will restore the optional N64 remap files from KMFDManic to `/etc/libretro/.config/retroarch/config/remaps`.
    
 ### IMPORTANT
 
