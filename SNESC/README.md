@@ -39,7 +39,8 @@
 
    - Add only one MakeBackup zip in Hakchi2: `MakeBackup_NAND` **OR** `MakeBackup_USB` **OR** `MakeBackupAdvanced_USB`.
    - Same for RestoreBackup: `RestoreBackup_NAND` **OR** `RestoreBackup_USB` **OR** `RestoreBackupAdvanced_USB`.
-   - The RestoreBackupAdvanced_USB will copy the entire `/etc/libretro/.config` folder (useful if you have RetroArch overlays) + `/etc/libretro/system` (your BIOS folder).
+   - The RestoreBackupAdvanced_USB will copy the entire `/etc/libretro/.config` folder (useful if you have RetroArch overlays and/or cheats) + `/etc/libretro/system` (your BIOS folder).
+   - Depending on the number and size of BIOS/cheats/overlays, it can take some time to backup/restore.
 
 ## MakeBackup_NAND.zip / RetroArch - Make settings backup
 
